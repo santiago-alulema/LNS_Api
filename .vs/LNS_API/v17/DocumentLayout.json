@@ -1,0 +1,568 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|c:\\users\\salul\\onedrive\\documentos\\lns_api\\lns_api\\services\\cajas_servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|solutionrelative:services\\cajas_servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|c:\\users\\salul\\onedrive\\documentos\\lns_api\\lns_api\\clases\\enviarjsonupdatepapeles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|solutionrelative:clases\\enviarjsonupdatepapeles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|c:\\users\\salul\\onedrive\\documentos\\lns_api\\lns_api\\controllers\\cajascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|solutionrelative:controllers\\cajascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|c:\\users\\salul\\onedrive\\documentos\\lns_api\\lns_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|c:\\users\\salul\\onedrive\\documentos\\lns_api\\lns_api\\services\\placas_servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|solutionrelative:services\\placas_servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|c:\\users\\salul\\onedrive\\documentos\\lns_api\\lns_api\\interfaces\\iinsumos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|solutionrelative:interfaces\\iinsumos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|c:\\users\\salul\\onedrive\\documentos\\lns_api\\lns_api\\interfaces\\iplacas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|solutionrelative:interfaces\\iplacas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|c:\\users\\salul\\onedrive\\documentos\\lns_api\\lns_api\\interfaces\\ipapel_filemaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|solutionrelative:interfaces\\ipapel_filemaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|c:\\users\\salul\\onedrive\\documentos\\lns_api\\lns_api\\interfaces\\ilogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|solutionrelative:interfaces\\ilogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|c:\\users\\salul\\onedrive\\documentos\\lns_api\\lns_api\\clases\\papelesupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|solutionrelative:clases\\papelesupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|c:\\users\\salul\\onedrive\\documentos\\lns_api\\lns_api\\interfaces\\icajas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|solutionrelative:interfaces\\icajas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|c:\\users\\salul\\onedrive\\documentos\\lns_api\\lns_api\\clases\\cajasclass\\cajascreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|solutionrelative:clases\\cajasclass\\cajascreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|c:\\users\\salul\\onedrive\\documentos\\lns_api\\lns_api\\clases\\placasclass\\crearplaca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|solutionrelative:clases\\placasclass\\crearplaca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|c:\\users\\salul\\onedrive\\documentos\\lns_api\\lns_api\\clases\\insumosclass\\newinsumos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|solutionrelative:clases\\insumosclass\\newinsumos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|c:\\users\\salul\\onedrive\\documentos\\lns_api\\lns_api\\controllers\\placacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|solutionrelative:controllers\\placacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|c:\\users\\salul\\onedrive\\documentos\\lns_api\\lns_api\\controllers\\insumoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|solutionrelative:controllers\\insumoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|c:\\users\\salul\\onedrive\\documentos\\lns_api\\lns_api\\controllers\\papelescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|solutionrelative:controllers\\papelescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|c:\\users\\salul\\onedrive\\documentos\\lns_api\\lns_api\\services\\insumos_servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|solutionrelative:services\\insumos_servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|c:\\users\\salul\\onedrive\\documentos\\lns_api\\lns_api\\clases\\papelesclass\\newpapel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|solutionrelative:clases\\papelesclass\\newpapel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|c:\\users\\salul\\onedrive\\documentos\\lns_api\\lns_api\\services\\papel_servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|solutionrelative:services\\papel_servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|c:\\users\\salul\\onedrive\\documentos\\lns_api\\lns_api\\services\\loginservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|solutionrelative:services\\loginservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|c:\\users\\salul\\onedrive\\documentos\\lns_api\\lns_api\\clases\\endpointlns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|solutionrelative:clases\\endpointlns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|c:\\users\\salul\\onedrive\\documentos\\lns_api\\lns_api\\clases\\actualizarpapeles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|solutionrelative:clases\\actualizarpapeles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|c:\\users\\salul\\onedrive\\documentos\\lns_api\\lns_api\\clases\\messajeclaseupdates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|solutionrelative:clases\\messajeclaseupdates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|c:\\users\\salul\\onedrive\\documentos\\lns_api\\lns_api\\clases\\respuestaactualizacionfilemaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|solutionrelative:clases\\respuestaactualizacionfilemaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|c:\\users\\salul\\onedrive\\documentos\\lns_api\\lns_api\\clases\\papeles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|solutionrelative:clases\\papeles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|c:\\users\\salul\\onedrive\\documentos\\lns_api\\lns_api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|c:\\users\\salul\\onedrive\\documentos\\lns_api\\lns_api\\clases\\fmdatasource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|solutionrelative:clases\\fmdatasource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|c:\\users\\salul\\onedrive\\documentos\\lns_api\\lns_api\\clases\\infodatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|solutionrelative:clases\\infodatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|c:\\users\\salul\\onedrive\\documentos\\lns_api\\lns_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|c:\\users\\salul\\onedrive\\documentos\\lns_api\\lns_api\\clases\\loginuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA6F998-9E57-42BB-9FD0-92815582D565}|LNS_API.csproj|solutionrelative:clases\\loginuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 812,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{349f9bf5-2e30-3986-9160-182c28a1f71a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cajas_Servicios.cs",
+              "DocumentMoniker": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Services\\Cajas_Servicios.cs",
+              "RelativeDocumentMoniker": "Services\\Cajas_Servicios.cs",
+              "ToolTip": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Services\\Cajas_Servicios.cs",
+              "RelativeToolTip": "Services\\Cajas_Servicios.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAAAHsAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T01:16:07.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "InsumosController.cs",
+              "DocumentMoniker": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Controllers\\InsumosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InsumosController.cs",
+              "ToolTip": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Controllers\\InsumosController.cs",
+              "RelativeToolTip": "Controllers\\InsumosController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAqwEgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T16:11:01.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Insumos_Servicios.cs",
+              "DocumentMoniker": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Services\\Insumos_Servicios.cs",
+              "RelativeDocumentMoniker": "Services\\Insumos_Servicios.cs",
+              "ToolTip": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Services\\Insumos_Servicios.cs",
+              "RelativeToolTip": "Services\\Insumos_Servicios.cs",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAAAIQAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T23:38:34.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PapelesUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Clases\\PapelesUpdate.cs",
+              "RelativeDocumentMoniker": "Clases\\PapelesUpdate.cs",
+              "ToolTip": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Clases\\PapelesUpdate.cs",
+              "RelativeToolTip": "Clases\\PapelesUpdate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T16:11:01.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ILogin.cs",
+              "DocumentMoniker": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Interfaces\\ILogin.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ILogin.cs",
+              "ToolTip": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Interfaces\\ILogin.cs",
+              "RelativeToolTip": "Interfaces\\ILogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T16:11:01.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T16:11:01.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Papeles.cs",
+              "DocumentMoniker": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Clases\\Papeles.cs",
+              "RelativeDocumentMoniker": "Clases\\Papeles.cs",
+              "ToolTip": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Clases\\Papeles.cs",
+              "RelativeToolTip": "Clases\\Papeles.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwC8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T16:11:01.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoginServices.cs",
+              "DocumentMoniker": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Services\\LoginServices.cs",
+              "RelativeDocumentMoniker": "Services\\LoginServices.cs",
+              "ToolTip": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Services\\LoginServices.cs",
+              "RelativeToolTip": "Services\\LoginServices.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAlwDYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T16:11:01.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAkwDsAAABnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T16:11:01.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EndPointLNS.cs",
+              "DocumentMoniker": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Clases\\EndPointLNS.cs",
+              "RelativeDocumentMoniker": "Clases\\EndPointLNS.cs",
+              "ToolTip": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Clases\\EndPointLNS.cs",
+              "RelativeToolTip": "Clases\\EndPointLNS.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T16:11:01.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "FmDataSource.cs",
+              "DocumentMoniker": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Clases\\FmDataSource.cs",
+              "RelativeDocumentMoniker": "Clases\\FmDataSource.cs",
+              "ToolTip": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Clases\\FmDataSource.cs",
+              "RelativeToolTip": "Clases\\FmDataSource.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAvwBIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T16:11:01.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "InfoDataBase.cs",
+              "DocumentMoniker": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Clases\\InfoDataBase.cs",
+              "RelativeDocumentMoniker": "Clases\\InfoDataBase.cs",
+              "ToolTip": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Clases\\InfoDataBase.cs",
+              "RelativeToolTip": "Clases\\InfoDataBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T16:11:01.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-10T16:11:01.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LoginUser.cs",
+              "DocumentMoniker": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Clases\\LoginUser.cs",
+              "RelativeDocumentMoniker": "Clases\\LoginUser.cs",
+              "ToolTip": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Clases\\LoginUser.cs",
+              "RelativeToolTip": "Clases\\LoginUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T16:11:01.65Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 598,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IInsumos.cs",
+              "DocumentMoniker": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Interfaces\\IInsumos.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IInsumos.cs",
+              "ToolTip": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Interfaces\\IInsumos.cs",
+              "RelativeToolTip": "Interfaces\\IInsumos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T23:36:30.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Placas_Servicios.cs",
+              "DocumentMoniker": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Services\\Placas_Servicios.cs",
+              "RelativeDocumentMoniker": "Services\\Placas_Servicios.cs",
+              "ToolTip": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Services\\Placas_Servicios.cs",
+              "RelativeToolTip": "Services\\Placas_Servicios.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAAAHYAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T00:48:59.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CajasController.cs",
+              "DocumentMoniker": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Controllers\\CajasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CajasController.cs",
+              "ToolTip": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Controllers\\CajasController.cs",
+              "RelativeToolTip": "Controllers\\CajasController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAADsAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T00:57:55.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnviarJsonUpdatePapeles.cs",
+              "DocumentMoniker": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Clases\\EnviarJsonUpdatePapeles.cs",
+              "RelativeDocumentMoniker": "Clases\\EnviarJsonUpdatePapeles.cs",
+              "ToolTip": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Clases\\EnviarJsonUpdatePapeles.cs",
+              "RelativeToolTip": "Clases\\EnviarJsonUpdatePapeles.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAowDIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T21:37:59.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IPapel_FileMaker.cs",
+              "DocumentMoniker": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Interfaces\\IPapel_FileMaker.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IPapel_FileMaker.cs",
+              "ToolTip": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Interfaces\\IPapel_FileMaker.cs",
+              "RelativeToolTip": "Interfaces\\IPapel_FileMaker.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAcAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T22:14:23.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ICajas.cs",
+              "DocumentMoniker": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Interfaces\\ICajas.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ICajas.cs",
+              "ToolTip": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Interfaces\\ICajas.cs",
+              "RelativeToolTip": "Interfaces\\ICajas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T01:15:01.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CajasCreate.cs",
+              "DocumentMoniker": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Clases\\CajasClass\\CajasCreate.cs",
+              "RelativeDocumentMoniker": "Clases\\CajasClass\\CajasCreate.cs",
+              "ToolTip": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Clases\\CajasClass\\CajasCreate.cs",
+              "RelativeToolTip": "Clases\\CajasClass\\CajasCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T01:12:59.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CrearPlaca.cs",
+              "DocumentMoniker": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Clases\\PlacasClass\\CrearPlaca.cs",
+              "RelativeDocumentMoniker": "Clases\\PlacasClass\\CrearPlaca.cs",
+              "ToolTip": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Clases\\PlacasClass\\CrearPlaca.cs",
+              "RelativeToolTip": "Clases\\PlacasClass\\CrearPlaca.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T01:14:03.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IPlacas.cs",
+              "DocumentMoniker": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Interfaces\\IPlacas.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IPlacas.cs",
+              "ToolTip": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Interfaces\\IPlacas.cs",
+              "RelativeToolTip": "Interfaces\\IPlacas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T00:48:41.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PlacaController.cs",
+              "DocumentMoniker": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Controllers\\PlacaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PlacaController.cs",
+              "ToolTip": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Controllers\\PlacaController.cs",
+              "RelativeToolTip": "Controllers\\PlacaController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T00:57:16.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NewInsumos.cs",
+              "DocumentMoniker": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Clases\\InsumosClass\\NewInsumos.cs",
+              "RelativeDocumentMoniker": "Clases\\InsumosClass\\NewInsumos.cs",
+              "ToolTip": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Clases\\InsumosClass\\NewInsumos.cs",
+              "RelativeToolTip": "Clases\\InsumosClass\\NewInsumos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T23:48:20.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PapelesController.cs",
+              "DocumentMoniker": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Controllers\\PapelesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PapelesController.cs",
+              "ToolTip": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Controllers\\PapelesController.cs",
+              "RelativeToolTip": "Controllers\\PapelesController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAADEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T16:11:01.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "newPapel.cs",
+              "DocumentMoniker": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Clases\\PapelesClass\\newPapel.cs",
+              "RelativeDocumentMoniker": "Clases\\PapelesClass\\newPapel.cs",
+              "ToolTip": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Clases\\PapelesClass\\newPapel.cs",
+              "RelativeToolTip": "Clases\\PapelesClass\\newPapel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T22:12:32.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Papel_Servicios.cs",
+              "DocumentMoniker": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Services\\Papel_Servicios.cs",
+              "RelativeDocumentMoniker": "Services\\Papel_Servicios.cs",
+              "ToolTip": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Services\\Papel_Servicios.cs",
+              "RelativeToolTip": "Services\\Papel_Servicios.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAvwEoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T16:11:01.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ActualizarPapeles.cs",
+              "DocumentMoniker": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Clases\\ActualizarPapeles.cs",
+              "RelativeDocumentMoniker": "Clases\\ActualizarPapeles.cs",
+              "ToolTip": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Clases\\ActualizarPapeles.cs",
+              "RelativeToolTip": "Clases\\ActualizarPapeles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T16:39:35.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "messajeClaseUpdates.cs",
+              "DocumentMoniker": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Clases\\messajeClaseUpdates.cs",
+              "RelativeDocumentMoniker": "Clases\\messajeClaseUpdates.cs",
+              "ToolTip": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Clases\\messajeClaseUpdates.cs",
+              "RelativeToolTip": "Clases\\messajeClaseUpdates.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T21:51:18.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RespuestaActualizacionFileMaker.cs",
+              "DocumentMoniker": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Clases\\RespuestaActualizacionFileMaker.cs",
+              "RelativeDocumentMoniker": "Clases\\RespuestaActualizacionFileMaker.cs",
+              "ToolTip": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\Clases\\RespuestaActualizacionFileMaker.cs",
+              "RelativeToolTip": "Clases\\RespuestaActualizacionFileMaker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T21:26:54.896Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

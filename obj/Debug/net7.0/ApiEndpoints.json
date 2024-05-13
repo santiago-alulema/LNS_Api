@@ -1,0 +1,146 @@
+[
+  {
+    "ContainingType": "LNS_API.Controllers.CajasController",
+    "Method": "CreateCajas",
+    "RelativePath": "api/Cajas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "papelesUpdate",
+        "Type": "System.Collections.Generic.List\u00601[[LNS_API.Clases.CajasClass.CajasCreate, LNS_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LNS_API.Controllers.CajasController",
+    "Method": "UpdateCostCajas",
+    "RelativePath": "api/Cajas",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "papelesUpdate",
+        "Type": "LNS_API.Clases.PapelesUpdate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LNS_API.Controllers.InsumosController",
+    "Method": "CreateInsumo",
+    "RelativePath": "api/Insumos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "papelesUpdate",
+        "Type": "System.Collections.Generic.List\u00601[[LNS_API.Clases.InsumosClass.NewInsumos, LNS_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LNS_API.Controllers.InsumosController",
+    "Method": "UpdateCostInsumo",
+    "RelativePath": "api/Insumos",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "papelesUpdate",
+        "Type": "LNS_API.Clases.PapelesUpdate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LNS_API.Controllers.LoginController",
+    "Method": "LogInAsync",
+    "RelativePath": "api/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "LNS_API.Clases.LoginUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LNS_API.Controllers.PapelesController",
+    "Method": "CreatePaper",
+    "RelativePath": "api/Papeles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "papelesUpdate",
+        "Type": "System.Collections.Generic.List\u00601[[LNS_API.Clases.PapelesClass.newPapel, LNS_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LNS_API.Controllers.PapelesController",
+    "Method": "UpdateCostPaper",
+    "RelativePath": "api/Papeles",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "papelesUpdate",
+        "Type": "LNS_API.Clases.PapelesUpdate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LNS_API.Controllers.PlacaController",
+    "Method": "CreateInsumo",
+    "RelativePath": "api/Placa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "papelesUpdate",
+        "Type": "System.Collections.Generic.List\u00601[[LNS_API.Clases.PlacasClass.CrearPlaca, LNS_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LNS_API.Controllers.PlacaController",
+    "Method": "UpdateCostInsumo",
+    "RelativePath": "api/Placa",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "papelesUpdate",
+        "Type": "LNS_API.Clases.PapelesUpdate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
