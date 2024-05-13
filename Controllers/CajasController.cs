@@ -4,6 +4,7 @@ using LNS_API.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using LNS_API.Clases.CajasClass;
+using LNS_API.Clases.PlacasClass;
 
 namespace LNS_API.Controllers
 {
@@ -24,15 +25,17 @@ namespace LNS_API.Controllers
 
 
         [HttpPost]
-        public async Task<IActionResult> CreateCajas(List<CajasCreate> papelesUpdate)
+        public async Task<IActionResult> CreateCajas(List<CajasC> papelesUpdate)
         {
             int cantidadCreada = 0;
             int cantidadNoCreada = 0;
-            string token = await _Login.GetTokeAsync("Papeles");
+            string token = await _Login.GetTokeAsync("Procesos");
             string respuesta = string.Empty;
             foreach (var item in papelesUpdate)
             {
-                respuesta += await _Updates.CreateCajas(item, token);
+                CajasCreate CAJAS = new CajasCreate();
+                CAJAS.fieldData = item;
+                respuesta += await _Updates.CreateCajas(CAJAS, token);
                 if (respuesta.Contains("ERROR"))
                 {
                     cantidadNoCreada++;
@@ -60,6 +63,7 @@ namespace LNS_API.Controllers
                 messajeClaseUpdates respuesta = await _Updates.UpdateCajas(papelesUpdate);
 
                 RepuestaApiLNS respuestaSend = new RepuestaApiLNS();
+                respuestaSend.message = respuesta.message;
                 if (respuesta.message.Trim().Length > 0)
                 {
                     respuestaSend.success = false;

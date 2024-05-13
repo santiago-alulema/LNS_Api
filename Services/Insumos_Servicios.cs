@@ -14,8 +14,8 @@ namespace LNS_API.Services
         private readonly IConfiguration Configuration;
         private readonly ILogin _Login;
         private readonly HttpClient _httpClient;
-        private readonly string _DataBase = "Insumos";
-        private readonly string _Layout = "Procesos";
+        private readonly string _DataBase = "Procesos";
+        private readonly string _Layout = "INSUMOS";
 
 
 
@@ -96,7 +96,7 @@ namespace LNS_API.Services
 
         public async Task<messajeClaseUpdates> UpdateInsumos(PapelesUpdate papelesUp)
         {
-            string token = await _Login.GetTokeAsync("Papeles");
+            string token = await _Login.GetTokeAsync("Procesos");
             string respusta = string.Empty;
             int registrosActualizados = 0;
             foreach (var item in papelesUp.productos)

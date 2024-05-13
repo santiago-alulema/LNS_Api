@@ -23,15 +23,17 @@ namespace LNS_API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateInsumo(List<CrearPlaca> papelesUpdate)
+        public async Task<IActionResult> CreateInsumo(List<PlacaNew> papelesUpdate)
         {
             int cantidadCreada = 0;
             int cantidadNoCreada = 0;
-            string token = await _Login.GetTokeAsync("Placas");
+            string token = await _Login.GetTokeAsync("Procesos");
             string respuesta = string.Empty;
             foreach (var item in papelesUpdate)
             {
-                respuesta += await _Updates.CreatePlacas(item, token);
+                CrearPlaca insumos = new CrearPlaca();
+                insumos.fieldData = item;
+                respuesta += await _Updates.CreatePlacas(insumos, token);
                 if (respuesta.Contains("ERROR"))
                 {
                     cantidadNoCreada++;
@@ -59,6 +61,7 @@ namespace LNS_API.Controllers
                 messajeClaseUpdates respuesta = await _Updates.UpdatePlacas(papelesUpdate);
 
                 RepuestaApiLNS respuestaSend = new RepuestaApiLNS();
+                respuestaSend.message = respuesta.message;
                 if (respuesta.message.Trim().Length > 0)
                 {
                     respuestaSend.success = false;

@@ -1,4 +1,5 @@
 ﻿using LNS_API.Clases;
+using LNS_API.Clases.CajasClass;
 using LNS_API.Clases.PapelesClass;
 using LNS_API.Interfaces;
 using Microsoft.AspNetCore.Http;
@@ -21,7 +22,7 @@ namespace LNS_API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreatePaper(List<newPapel> papelesUpdate)
+        public async Task<IActionResult> CreatePaper(List<InsumoPapel> papelesUpdate)
         {
             int cantidadCreada = 0;
             int cantidadNoCreada = 0;
@@ -29,7 +30,9 @@ namespace LNS_API.Controllers
             string respuesta = string.Empty;
             foreach (var item in papelesUpdate)
             {
-                respuesta += await _Updates.CreatePapeles(item, token);
+                newPapel Papeles = new newPapel();
+                Papeles.fieldData = item;
+                respuesta += await _Updates.CreatePapeles(Papeles, token);
                 if (respuesta.Contains("ERROR"))
                 {
                     cantidadNoCreada++;
@@ -57,6 +60,7 @@ namespace LNS_API.Controllers
                 messajeClaseUpdates respuesta =await _Updates.UpdatePapeles(papelesUpdate);
 
                 RepuestaApiLNS respuestaSend = new RepuestaApiLNS();
+                respuestaSend.message = respuesta.message;
                 if (respuesta.message.Trim().Length > 0)
                 {
                     respuestaSend.success = false;

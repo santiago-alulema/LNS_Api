@@ -7,9 +7,10 @@
 
     public class PlacaNew
     {
-        public string Mat_Codigo { get; set; }
+        public string cdgo_placa { get; set; }
         public string CODIGO_REFERENCIA_ODOO { get; set; }
-        public float COSTO { get; set; }
-        public string MAT_Nombre { get; set; }
+        public decimal placa_vlor { get; set; }
+        public String FECHA_ULTIMO_COSTO { get; set; }
+        public string placa_dscrpcion { get; set; }
     }
 }

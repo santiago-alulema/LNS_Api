@@ -67,3 +67,38 @@ C:\Users\salul\OneDrive\Documentos\LNS_API\LNS_API\obj\Debug\net7.0\scopedcss\bu
 C:\Users\salul\OneDrive\Documentos\LNS_API\LNS_API\obj\Debug\net7.0\LNS_API.csproj.Up2Date
 C:\Users\salul\OneDrive\Documentos\LNS_API\LNS_API\obj\Debug\net7.0\LNS_API.genruntimeconfig.cache
 C:\Users\salul\OneDrive\Documentos\LNS_API\LNS_API\obj\Debug\net7.0\ref\LNS_API.dll
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\bin\Debug\net7.0\appsettings.json
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\bin\Debug\net7.0\LNS_API.exe
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\bin\Debug\net7.0\LNS_API.deps.json
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\bin\Debug\net7.0\LNS_API.runtimeconfig.json
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\bin\Debug\net7.0\LNS_API.dll
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\bin\Debug\net7.0\LNS_API.pdb
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\obj\Debug\net7.0\LNS_API.csproj.AssemblyReference.cache
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\obj\Debug\net7.0\LNS_API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\obj\Debug\net7.0\LNS_API.AssemblyInfoInputs.cache
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\obj\Debug\net7.0\LNS_API.AssemblyInfo.cs
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\obj\Debug\net7.0\LNS_API.csproj.CoreCompileInputs.cache
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\obj\Debug\net7.0\LNS_API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\obj\Debug\net7.0\LNS_API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\obj\Debug\net7.0\LNS_API.sourcelink.json
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\obj\Debug\net7.0\staticwebassets\msbuild.LNS_API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\obj\Debug\net7.0\staticwebassets\msbuild.build.LNS_API.props
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.LNS_API.props
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.LNS_API.props
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\obj\Debug\net7.0\scopedcss\bundle\LNS_API.styles.css
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\obj\Debug\net7.0\LNS_API.csproj.CopyComplete
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\obj\Debug\net7.0\LNS_API.dll
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\obj\Debug\net7.0\refint\LNS_API.dll
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\obj\Debug\net7.0\LNS_API.pdb
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\obj\Debug\net7.0\LNS_API.genruntimeconfig.cache
+C:\Users\camaras\Desktop\LNS Api\LNS_Api\obj\Debug\net7.0\ref\LNS_API.dll

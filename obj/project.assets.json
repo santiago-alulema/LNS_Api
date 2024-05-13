@@ -513,23 +513,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\salul\\.nuget\\packages\\": {},
+    "C:\\Users\\camaras\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\LNS_API.csproj",
+      "projectUniqueName": "C:\\Users\\camaras\\Desktop\\LNS Api\\LNS_Api\\LNS_API.csproj",
       "projectName": "LNS_API",
-      "projectPath": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\LNS_API.csproj",
-      "packagesPath": "C:\\Users\\salul\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\salul\\OneDrive\\Documentos\\LNS_API\\LNS_API\\obj\\",
+      "projectPath": "C:\\Users\\camaras\\Desktop\\LNS Api\\LNS_Api\\LNS_API.csproj",
+      "packagesPath": "C:\\Users\\camaras\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\camaras\\Desktop\\LNS Api\\LNS_Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\salul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\camaras\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -551,11 +551,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -594,7 +589,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

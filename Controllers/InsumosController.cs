@@ -22,7 +22,7 @@ namespace LNS_API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateInsumo(List<NewInsumos> papelesUpdate)
+        public async Task<IActionResult> CreateInsumo(List<LNS_API.Clases.InsumosClass.Insumo> papelesUpdate)
         {
             int cantidadCreada = 0;
             int cantidadNoCreada = 0;
@@ -30,7 +30,9 @@ namespace LNS_API.Controllers
             string respuesta = string.Empty;
             foreach (var item in papelesUpdate)
             {
-                respuesta += await _Updates.CreateInsumos(item, token);
+                NewInsumos insumos = new NewInsumos();
+                insumos.fieldData = item;
+                respuesta += await _Updates.CreateInsumos(insumos, token);
                 if (respuesta.Contains("ERROR"))
                 {
                     cantidadNoCreada++;
@@ -56,11 +58,13 @@ namespace LNS_API.Controllers
             try
             {
                 messajeClaseUpdates respuesta = await _Updates.UpdateInsumos(papelesUpdate);
-
+                
                 RepuestaApiLNS respuestaSend = new RepuestaApiLNS();
+                respuestaSend.message = respuesta.message;
                 if (respuesta.message.Trim().Length > 0)
                 {
                     respuestaSend.success = false;
+                    
                     return BadRequest(respuestaSend);
                 }
                 respuestaSend.registros_actualizados = respuesta.cantidadUpdate;

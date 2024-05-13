@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LNS_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cbc3c0cff660662bb7981c6c4890bab030a682e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad8ce1ff79df98d675bd95e28ff574fb224af949")]
 [assembly: System.Reflection.AssemblyProductAttribute("LNS_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LNS_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

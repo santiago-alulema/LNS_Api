@@ -11,8 +11,8 @@ namespace LNS_API.Services
         private readonly IConfiguration Configuration;
         private readonly ILogin _Login;
         private readonly HttpClient _httpClient;
-        private readonly string _DataBase = "PLACAS";
-        private readonly string _Layout = "PLACAS";
+        private readonly string _DataBase = "Procesos";
+        private readonly string _Layout = "CAJAS CORRUGADAS";
 
         public Cajas_Servicios(IConfiguration config,
                                 ILogin Login)
@@ -53,7 +53,7 @@ namespace LNS_API.Services
 
         public async Task<messajeClaseUpdates> UpdateCajas(PapelesUpdate papelesUp)
         {
-            string token = await _Login.GetTokeAsync("Papeles");
+            string token = await _Login.GetTokeAsync(_DataBase);
             string respusta = string.Empty;
             int registrosActualizados = 0;
             foreach (var item in papelesUp.productos)
