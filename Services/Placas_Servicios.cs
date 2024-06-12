@@ -11,7 +11,7 @@ namespace LNS_API.Services
     {
         private readonly IConfiguration Configuration;
         private readonly ILogin _Login;
-        private readonly HttpClient _httpClient;
+        private  HttpClient _httpClient;
         private readonly string _DataBase = "Procesos";
         private readonly string _Layout = "PLACAS";
 
@@ -26,6 +26,7 @@ namespace LNS_API.Services
         {
             try
             {
+                _httpClient = new HttpClient();
                 string urlBase = Configuration["URLBASE"];
                 string json = JsonConvert.SerializeObject(papelesUp);
                 var todoItemJson = new StringContent(
@@ -53,12 +54,13 @@ namespace LNS_API.Services
 
         public async Task<messajeClaseUpdates> UpdatePlacas(PapelesUpdate papelesUp)
         {
+            _httpClient = new HttpClient();
             string token = await _Login.GetTokeAsync(_DataBase);
             string respusta = string.Empty;
             int registrosActualizados = 0;
             foreach (var item in papelesUp.productos)
             {
-                var recordID = await ObtenerIdPlacaAsync(papelesUp.productos[0].codigo, token);
+                var recordID = await ObtenerIdPlacaAsync(item.codigo, token);
                 string respuestaUpdate = String.Empty;
                 if (!recordID.Contains("ERROR"))
                 {
@@ -86,6 +88,9 @@ namespace LNS_API.Services
         {
             try
             {
+                _httpClient = new HttpClient();
+                string urlBase = Configuration["URLBASE"];
+                _httpClient.BaseAddress = new Uri(urlBase);
                 EnviarJsonUpdatePlaca updateRecord = new EnviarJsonUpdatePlaca();
                 updateRecord.fieldData.placa_vlor = newValue;
 
@@ -120,6 +125,7 @@ namespace LNS_API.Services
         {
             try
             {
+                _httpClient = new HttpClient();
                 string urlBase = Configuration["URLBASE"];
                 _httpClient.BaseAddress = new Uri(urlBase);
                 RequestBody res = new RequestBody();

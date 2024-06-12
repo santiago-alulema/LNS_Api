@@ -22,7 +22,7 @@ namespace LNS_API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateInsumo(List<LNS_API.Clases.InsumosClass.Insumo> papelesUpdate)
+        public async Task<IActionResult> CreateInsumo(List<LNS_API.Clases.InsumosClass.InsumoFileMaker> papelesUpdate)
         {
             int cantidadCreada = 0;
             int cantidadNoCreada = 0;

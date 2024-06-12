@@ -13,7 +13,7 @@ namespace LNS_API.Services
     {
         private readonly IConfiguration Configuration;
         private readonly ILogin _Login;
-        private readonly HttpClient _httpClient;
+        private  HttpClient _httpClient;
         public Papel_Servicios(IConfiguration config,
                                 ILogin Login)
         {
@@ -40,6 +40,7 @@ namespace LNS_API.Services
         {
             try
             {
+                _httpClient = new HttpClient();
                 string urlBase = Configuration["URLBASE"];
                 _httpClient.BaseAddress = new Uri(urlBase);
                 RequestBody res = new RequestBody();
@@ -76,9 +77,12 @@ namespace LNS_API.Services
         {
             try
             {
+                _httpClient = new HttpClient();
+                string urlBase = Configuration["URLBASE"];
+                _httpClient.BaseAddress = new Uri(urlBase);
+
                 EnviarJsonUpdatePapeles updateRecord = new EnviarJsonUpdatePapeles();
                 updateRecord.fieldData.COS_COSTO = newValue;
-
 
                 string json = JsonConvert.SerializeObject(updateRecord);
                 var todoItemJson = new StringContent(
@@ -109,12 +113,15 @@ namespace LNS_API.Services
 
         public async Task<messajeClaseUpdates> UpdatePapeles(PapelesUpdate papelesUp)
         {
+            _httpClient = new HttpClient();
+            string urlBase = Configuration["URLBASE"];
+            _httpClient.BaseAddress = new Uri(urlBase);
             string token = await _Login.GetTokeAsync("Papeles");
             string respusta = string.Empty;
             int registrosActualizados = 0;
             foreach (var item in papelesUp.productos)
             {
-                var recordID = await ObtenerIDPapelesAsync(papelesUp.productos[0].codigo, token);
+                var recordID = await ObtenerIDPapelesAsync(item.codigo, token);
                 string respuestaUpdate = String.Empty;
                 if (!recordID.Contains("ERROR")) {
                     respuestaUpdate = await UpdatePapelProductAsync(recordID, item.costo, token);
@@ -140,6 +147,7 @@ namespace LNS_API.Services
         {
             try
             {
+                _httpClient = new HttpClient();
                 string urlBase = Configuration["URLBASE"];
                 string json = JsonConvert.SerializeObject(papelesUp);
                 var todoItemJson = new StringContent(

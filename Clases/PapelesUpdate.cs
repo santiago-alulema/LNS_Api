@@ -3,7 +3,7 @@
 
     public class PapelesUpdate
     {
-        public List<Producto> productos { get; set; }
+        public List<Producto> productos { get; set; } = new List<Producto>();
     }
 
     public class Producto

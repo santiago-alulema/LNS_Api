@@ -4,10 +4,10 @@
 
     public class NewInsumos
     {
-        public Insumo fieldData { get; set; } =  new Insumo();
+        public InsumoFileMaker fieldData { get; set; } =  new InsumoFileMaker();
     }
 
-    public class Insumo
+    public class InsumoFileMaker
     {
         public string Mat_Codigo { get; set; }
         public string CODIGO_REFERENCIA_ODOO { get; set; }

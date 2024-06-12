@@ -8,7 +8,7 @@ namespace LNS_API.Services
 {
     public class LoginServices : ILogin
     {
-        private readonly HttpClient _httpClient;
+        private  HttpClient _httpClient;
         private readonly IConfiguration Configuration;
         private readonly EndPointLNS endPointLNS;
         public LoginServices(IConfiguration config)
@@ -22,6 +22,7 @@ namespace LNS_API.Services
 
             try
             {
+                _httpClient = new HttpClient();
                 string urlBase = Configuration["URLBASE"];
                 string username = Configuration["usernameWS"];
                 string password = Configuration["passwordWS"];

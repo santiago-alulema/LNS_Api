@@ -7,6 +7,7 @@ namespace LNS_API.Interfaces
     {
         public Task<messajeClaseUpdates> UpdatePapeles(PapelesUpdate papelesUp);
         public Task<String> CreatePapeles(newPapel papelesUp, string token);
+        public Task<string> ObtenerIDPapelesAsync(string parameterSearch, string token);
 
     }
 }

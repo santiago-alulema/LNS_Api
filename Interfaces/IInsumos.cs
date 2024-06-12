@@ -8,5 +8,6 @@ namespace LNS_API.Interfaces
     {
         public Task<messajeClaseUpdates> UpdateInsumos(PapelesUpdate papelesUp);
         public Task<String> CreateInsumos(NewInsumos papelesUp, string token);
+        public Task<string> ObtenerIDInsumosAsync(string parameterSearch, string token);
     }
 }

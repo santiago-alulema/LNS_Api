@@ -13,7 +13,7 @@ namespace LNS_API.Services
     {
         private readonly IConfiguration Configuration;
         private readonly ILogin _Login;
-        private readonly HttpClient _httpClient;
+        private HttpClient _httpClient;
         private readonly string _DataBase = "Procesos";
         private readonly string _Layout = "INSUMOS";
 
@@ -31,6 +31,7 @@ namespace LNS_API.Services
         {
             try
             {
+                _httpClient = new HttpClient();
                 string urlBase = Configuration["URLBASE"];
                 string json = JsonConvert.SerializeObject(papelesUp);
                 var todoItemJson = new StringContent(
@@ -62,6 +63,7 @@ namespace LNS_API.Services
         {
             try
             {
+                _httpClient = new HttpClient();
                 string urlBase = Configuration["URLBASE"];
                 _httpClient.BaseAddress = new Uri(urlBase);
                 RequestBody res = new RequestBody();
@@ -96,12 +98,13 @@ namespace LNS_API.Services
 
         public async Task<messajeClaseUpdates> UpdateInsumos(PapelesUpdate papelesUp)
         {
+            _httpClient = new HttpClient();
             string token = await _Login.GetTokeAsync("Procesos");
             string respusta = string.Empty;
             int registrosActualizados = 0;
             foreach (var item in papelesUp.productos)
             {
-                var recordID = await ObtenerIDInsumosAsync(papelesUp.productos[0].codigo, token);
+                var recordID = await ObtenerIDInsumosAsync(item.codigo, token);
                 string respuestaUpdate = String.Empty;
                 if (!recordID.Contains("ERROR"))
                 {
@@ -129,6 +132,9 @@ namespace LNS_API.Services
         {
             try
             {
+                _httpClient = new HttpClient();
+                string urlBase = Configuration["URLBASE"];
+                _httpClient.BaseAddress = new Uri(urlBase);
                 EnviarJsonUpdateInsumos updateRecord = new EnviarJsonUpdateInsumos();
                 updateRecord.fieldData.Costo_Unitario = newValue;
 

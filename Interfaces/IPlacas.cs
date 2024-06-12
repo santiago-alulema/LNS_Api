@@ -8,5 +8,6 @@ namespace LNS_API.Interfaces
     {
         public Task<messajeClaseUpdates> UpdatePlacas(PapelesUpdate papelesUp);
         public Task<String> CreatePlacas(CrearPlaca papelesUp, string token);
+        public Task<string> ObtenerIdPlacaAsync(string parameterSearch, string token);
     }
 }
