@@ -5,6 +5,7 @@ using LNS_API.Clases.InsumosClass;
 using LNS_API.Clases.PapelesClass;
 using LNS_API.Clases.PlacasClass;
 using LNS_API.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
@@ -34,7 +35,7 @@ namespace LNS_API.Controllers
             _UpdatesPlacas = updatesPlacas;
             _UpdatesPapeles = updatesPapeles;
         }
-
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> CreateOrUpdateMateriaAsync(MaterialType Materiales)
         {

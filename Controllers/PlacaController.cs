@@ -4,9 +4,11 @@ using LNS_API.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using LNS_API.Clases.PlacasClass;
+using Microsoft.AspNetCore.Authorization;
 
 namespace LNS_API.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class PlacaController : ControllerBase

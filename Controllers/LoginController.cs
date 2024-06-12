@@ -1,11 +1,16 @@
 ﻿using LNS_API.Clases;
+using LNS_API.Clases.LoginClass;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
+using System.IdentityModel.Tokens.Jwt;
 using System.Net;
 using System.Net.Http.Headers;
 using System.Net.Mime;
+using System.Security.Claims;
 using System.Text;
 using static System.Net.Mime.MediaTypeNames;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -27,6 +32,46 @@ namespace LNS_API.Controllers
             _httpClient = new HttpClient();
         }
 
+
+        [HttpPost("login-ws")]
+        public object Login( [FromBody] Login_WS login)
+        {
+            string usuario = Configuration["USERAPI"];
+            string password = Configuration["PASSWORDAPI"];
+
+            if (usuario == login.username && password == login.password)
+            {
+                string JWTtoken = GenerateJWTToken(login.username);
+                return Ok(new
+                {
+                    status = true,
+                    token = JWTtoken
+                });
+            }
+            return BadRequest(new
+            {
+                status = true,
+                token = ""
+            });
+        }
+
+        private string GenerateJWTToken(string user)
+        {
+            var claims = new List<Claim> {
+        new Claim(ClaimTypes.Name, user),
+    };
+            var jwtToken = new JwtSecurityToken(
+                claims: claims,
+                notBefore: DateTime.UtcNow,
+                expires: DateTime.UtcNow.AddDays(1),
+                signingCredentials: new SigningCredentials(
+                    new SymmetricSecurityKey(
+                       Encoding.UTF8.GetBytes(Configuration["ApplicationSettings:JWT_Secret"])
+                        ),
+                    SecurityAlgorithms.HmacSha256Signature)
+                );
+            return new JwtSecurityTokenHandler().WriteToken(jwtToken);
+        }
 
         [HttpPost]
         public async Task<IActionResult> LogInAsync(LoginUser user)
