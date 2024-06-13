@@ -50,7 +50,7 @@ namespace LNS_API.Controllers
             }
             return BadRequest(new
             {
-                status = true,
+                status = false,
                 token = ""
             });
         }
