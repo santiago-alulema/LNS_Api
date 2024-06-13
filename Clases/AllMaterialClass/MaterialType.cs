@@ -2,13 +2,13 @@
 {
     public class MaterialType
     {
-        public string TypeMaterial { get; set; }
         public List<material> ListaMateriales { get; set; }
     }
 
 
     public class material
     {
+        public string TypeMaterial { get; set; }
         public string codigo_referencia_odoo { get; set; }
         public decimal costo_unitario { get; set; }
         public string fecha_ultimo_costo { get; set; }

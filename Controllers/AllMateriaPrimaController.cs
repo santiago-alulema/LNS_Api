@@ -40,22 +40,25 @@ namespace LNS_API.Controllers
         public async Task<IActionResult> CreateOrUpdateMateriaAsync(MaterialType Materiales)
         {
             RepuestaApiLNS response = new RepuestaApiLNS();
-            switch (Materiales.TypeMaterial)
+            foreach (var materia in Materiales.ListaMateriales)
             {
-                case "CAJAS":
-                    response =  await CajasProcessAsync(Materiales.ListaMateriales);
-                    break;
-                case "INSUMOS":
-                    response = await InsumosProcessAsync(Materiales.ListaMateriales);
-                    break;
-                case "PLACAS":
-                    response = await PlacasProcessAsync(Materiales.ListaMateriales);
-                    break;
-                case "PAPELES":
-                    response = await PapelesProcessAsync(Materiales.ListaMateriales);
-                    break;
-                default:
-                    break;
+                switch (materia.TypeMaterial)
+                {
+                    case "CAJAS":
+                        response = await CajasProcessAsync(Materiales.ListaMateriales);
+                        break;
+                    case "INSUMOS":
+                        response = await InsumosProcessAsync(Materiales.ListaMateriales);
+                        break;
+                    case "PLACAS":
+                        response = await PlacasProcessAsync(Materiales.ListaMateriales);
+                        break;
+                    case "PAPELES":
+                        response = await PapelesProcessAsync(Materiales.ListaMateriales);
+                        break;
+                    default:
+                        break;
+                }
             }
             return Ok(response);
         }
