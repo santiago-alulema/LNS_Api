@@ -9,7 +9,7 @@
     public class Producto
     {
         public string codigo { get; set; }
-        public Decimal costo { get; set; }
+        public string costo { get; set; }
     }
 
 }

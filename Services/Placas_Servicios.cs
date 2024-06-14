@@ -84,7 +84,7 @@ namespace LNS_API.Services
 
         }
 
-        public async Task<string> UpdatePlacaAsync(string recordID, Decimal newValue, string token)
+        public async Task<string> UpdatePlacaAsync(string recordID, string newValue, string token)
         {
             try
             {

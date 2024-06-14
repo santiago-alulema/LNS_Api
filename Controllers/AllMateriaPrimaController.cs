@@ -22,6 +22,10 @@ namespace LNS_API.Controllers
         private readonly IPlacas _UpdatesPlacas;
         private readonly IPapel_FileMaker _UpdatesPapeles;
         private readonly ILogin _Login;
+        int cantidadCreada = 0;
+        int cantidadNoCreada = 0;
+        int cantidadActualizados = 0;
+        string mensaje;
 
         public AllMateriaPrimaController(ICajas Updates, 
                                          ILogin login,
@@ -45,28 +49,35 @@ namespace LNS_API.Controllers
                 switch (materia.TypeMaterial)
                 {
                     case "CAJAS":
-                        response = await CajasProcessAsync(Materiales.ListaMateriales);
+                        response = await CajasProcessAsync(new List<material>() { materia });
                         break;
                     case "INSUMOS":
-                        response = await InsumosProcessAsync(Materiales.ListaMateriales);
+                        response = await InsumosProcessAsync(new List<material>() { materia });
                         break;
                     case "PLACAS":
-                        response = await PlacasProcessAsync(Materiales.ListaMateriales);
+                        response = await PlacasProcessAsync(new List<material>() { materia });
                         break;
                     case "PAPELES":
-                        response = await PapelesProcessAsync(Materiales.ListaMateriales);
+                        response = await PapelesProcessAsync(new List<material>() { materia });
                         break;
                     default:
                         break;
                 }
             }
-            return Ok(response);
+            return Ok(new RepuestaApiLNS
+            {
+                success = cantidadNoCreada > 0 || mensaje.Trim().Length > 0 ? false : true,
+                message = $"{mensaje}" ,
+                registros_creados = cantidadCreada,
+                registros_actualizados = cantidadActualizados,
+                responseCode = '2'
+
+            });
         }
 
         private async Task<RepuestaApiLNS> CajasProcessAsync(List<material> listaMateriales)
         {
-            int cantidadCreada = 0;
-            int cantidadNoCreada = 0;
+            
             string token = await _Login.GetTokeAsync("Procesos");
             string respuesta = string.Empty;
             PapelesUpdate productosUpdate = new PapelesUpdate();
@@ -103,28 +114,32 @@ namespace LNS_API.Controllers
                     productosUpdate.productos.Add(p);
                 }
             }
-            {
 
+            messajeClaseUpdates respuestaUpdate;
+            if (productosUpdate.productos.Count()>0)
+            {
+                respuestaUpdate = await _Updates.UpdateCajas(productosUpdate);
+                cantidadActualizados += respuestaUpdate.cantidadUpdate;
+                mensaje += respuestaUpdate.message;
             }
-            messajeClaseUpdates respuestaUpdate = await _Updates.UpdateCajas(productosUpdate);
+            mensaje += respuesta;
 
-            return new RepuestaApiLNS()
-            {
-                success = cantidadNoCreada > 0 || respuestaUpdate.message.Trim().Length > 0 ? false : true,
-                message = $"{respuesta} {respuestaUpdate.message}" ,
-                registros_creados = cantidadCreada,
-                registros_actualizados = respuestaUpdate.cantidadUpdate,
-                responseCode = '2'
+            return new RepuestaApiLNS();
+            //{
+            //    success = cantidadNoCreada > 0 || respuestaUpdate.message.Trim().Length > 0 ? false : true,
+            //    message = $"{respuesta} {respuestaUpdate.message}" ,
+            //    registros_creados = cantidadCreada,
+            //    registros_actualizados = respuestaUpdate.cantidadUpdate,
+            //    responseCode = '2'
 
-            };
+            //};
         }
 
 
 
         private async Task<RepuestaApiLNS> InsumosProcessAsync(List<material> listaMateriales)
         {
-            int cantidadCreada = 0;
-            int cantidadNoCreada = 0;
+           
             string token = await _Login.GetTokeAsync("Procesos");
             string respuesta = string.Empty;
             PapelesUpdate productosUpdate = new PapelesUpdate();
@@ -164,28 +179,32 @@ namespace LNS_API.Controllers
                     productosUpdate.productos.Add(p);
                 }
             }
-            {
-
+            messajeClaseUpdates respuestaUpdate;
+            if (productosUpdate.productos.Count() > 0)
+            { 
+                 respuestaUpdate = await _UpdatesInsumos.UpdateInsumos(productosUpdate);
+                cantidadActualizados += respuestaUpdate.cantidadUpdate;
+                mensaje += respuestaUpdate.message;
             }
-            messajeClaseUpdates respuestaUpdate = await _UpdatesInsumos.UpdateInsumos(productosUpdate);
+            mensaje += respuesta;
 
             return new RepuestaApiLNS()
-            {
-                success = cantidadNoCreada > 0 || respuestaUpdate.message.Trim().Length > 0 ? false : true,
-                message = $"{respuesta} {respuestaUpdate.message}",
-                registros_creados = cantidadCreada,
-                registros_actualizados = respuestaUpdate.cantidadUpdate,
-                responseCode = '2'
+            //{
+            //    success = cantidadNoCreada > 0 || respuestaUpdate.message.Trim().Length > 0 ? false : true,
+            //    message = $"{respuesta} {respuestaUpdate.message}",
+            //    registros_creados = cantidadCreada,
+            //    registros_actualizados = respuestaUpdate.cantidadUpdate,
+            //    responseCode = '2'
 
-            };
+            //}
+            ;
         }
 
         
 
         private async Task<RepuestaApiLNS> PlacasProcessAsync(List<material> listaMateriales)
         {
-            int cantidadCreada = 0;
-            int cantidadNoCreada = 0;
+            
             string token = await _Login.GetTokeAsync("Procesos");
             string respuesta = string.Empty;
             PapelesUpdate productosUpdate = new PapelesUpdate();
@@ -222,28 +241,32 @@ namespace LNS_API.Controllers
                     productosUpdate.productos.Add(p);
                 }
             }
-            {
-
+            messajeClaseUpdates respuestaUpdate;
+            if (productosUpdate.productos.Count() > 0)
+            { 
+                 respuestaUpdate = await _UpdatesPlacas.UpdatePlacas(productosUpdate);
+                cantidadActualizados += respuestaUpdate.cantidadUpdate;
+                mensaje += respuestaUpdate.message;
             }
-            messajeClaseUpdates respuestaUpdate = await _UpdatesPlacas.UpdatePlacas(productosUpdate);
+            mensaje += respuesta;
 
             return new RepuestaApiLNS()
-            {
-                success = cantidadNoCreada > 0 || respuestaUpdate.message.Trim().Length > 0 ? false : true,
-                message = $"{respuesta} {respuestaUpdate.message}",
-                registros_creados = cantidadCreada,
-                registros_actualizados = respuestaUpdate.cantidadUpdate,
-                responseCode = '2'
+            //{
+            //    success = cantidadNoCreada > 0 || respuestaUpdate.message.Trim().Length > 0 ? false : true,
+            //    message = $"{respuesta} {respuestaUpdate.message}",
+            //    registros_creados = cantidadCreada,
+            //    registros_actualizados = respuestaUpdate.cantidadUpdate,
+            //    responseCode = '2'
 
-            };
+            //}
+            ;
         }
 
 
 
         private async Task<RepuestaApiLNS> PapelesProcessAsync(List<material> listaMateriales)
         {
-            int cantidadCreada = 0;
-            int cantidadNoCreada = 0;
+           
             string token = await _Login.GetTokeAsync("Papeles");
             string respuesta = string.Empty;
             PapelesUpdate productosUpdate = new PapelesUpdate();
@@ -280,20 +303,26 @@ namespace LNS_API.Controllers
                     productosUpdate.productos.Add(p);
                 }
             }
-            {
 
+            messajeClaseUpdates respuestaUpdate;
+            if (productosUpdate.productos.Count() > 0)
+            { 
+                 respuestaUpdate = await _UpdatesPapeles.UpdatePapeles(productosUpdate);
+                cantidadActualizados += respuestaUpdate.cantidadUpdate;
+                mensaje += respuestaUpdate.message;
             }
-            messajeClaseUpdates respuestaUpdate = await _UpdatesPapeles.UpdatePapeles(productosUpdate);
+            mensaje += respuesta;
 
             return new RepuestaApiLNS()
-            {
-                success = cantidadNoCreada > 0 || respuestaUpdate.message.Trim().Length > 0 ? false : true,
-                message = $"{respuesta} {respuestaUpdate.message}",
-                registros_creados = cantidadCreada,
-                registros_actualizados = respuestaUpdate.cantidadUpdate,
-                responseCode = '2'
+            //{
+            //    success = cantidadNoCreada > 0 || respuestaUpdate.message.Trim().Length > 0 ? false : true,
+            //    message = $"{respuesta} {respuestaUpdate.message}",
+            //    registros_creados = cantidadCreada,
+            //    registros_actualizados = respuestaUpdate.cantidadUpdate,
+            //    responseCode = '2'
 
-            };
+            //}
+            ;
         }
 
 

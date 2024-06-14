@@ -117,7 +117,7 @@ namespace LNS_API.Services
 
         }
 
-        public async Task<string> UpdateCajaAsync(string recordID, Decimal newValue, string token)
+        public async Task<string> UpdateCajaAsync(string recordID, string newValue, string token)
         {
             try
             {

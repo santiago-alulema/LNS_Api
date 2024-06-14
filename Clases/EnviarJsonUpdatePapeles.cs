@@ -7,7 +7,7 @@
 
     public class FielddataUp
     {
-        public Decimal COS_COSTO { get; set; }
+        public string COS_COSTO { get; set; }
     }
 
 
@@ -21,7 +21,7 @@
 
     public class FielddataUpInsumos
     {
-        public Decimal Costo_Unitario { get; set; }
+        public string COSTO { get; set; }
     }
 
 
@@ -35,7 +35,7 @@
 
     public class FielddataUpPlaca
     {
-        public Decimal placa_vlor { get; set; }
+        public string placa_vlor { get; set; }
     }
 
 
@@ -48,6 +48,6 @@
 
     public class FielddataUpCaja
     {
-        public Decimal caja_vlor_sin_iva { get; set; }
+        public string caja_vlor_sin_iva { get; set; }
     }
 }

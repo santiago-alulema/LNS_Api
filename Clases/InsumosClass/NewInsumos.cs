@@ -11,7 +11,7 @@
     {
         public string Mat_Codigo { get; set; }
         public string CODIGO_REFERENCIA_ODOO { get; set; }
-        public Decimal COSTO { get; set; }
+        public string COSTO { get; set; }
         public string UnidadCompra { get; set; }
         public string UnidadConsumo { get; set; }
         public string MAT_Nombre { get; set; }

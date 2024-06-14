@@ -128,7 +128,7 @@ namespace LNS_API.Services
 
         }
 
-        public async Task<string> UpdateInsumosAsync(string recordID, Decimal newValue, string token)
+        public async Task<string> UpdateInsumosAsync(string recordID, string newValue, string token)
         {
             try
             {
@@ -136,7 +136,7 @@ namespace LNS_API.Services
                 string urlBase = Configuration["URLBASE"];
                 _httpClient.BaseAddress = new Uri(urlBase);
                 EnviarJsonUpdateInsumos updateRecord = new EnviarJsonUpdateInsumos();
-                updateRecord.fieldData.Costo_Unitario = newValue;
+                updateRecord.fieldData.COSTO = newValue;
 
 
                 string json = JsonConvert.SerializeObject(updateRecord);
